@@ -1,0 +1,102 @@
+[
+  {
+    "country": "Belgium",
+    "zone": 1
+  },
+  {
+    "country": "Denmark",
+    "zone": 5
+  },
+  {
+    "country": "Germany",
+    "zone": 2
+  },
+  {
+    "country": "United Kingdom",
+    "zone": 4
+  },
+  {
+    "country": "Estland",
+    "zone": 6
+  },
+  {
+    "country": "Finland",
+    "zone": 6
+  },
+  {
+    "country": "France",
+    "zone": 4
+  },
+  {
+    "country": "Greece",
+    "zone": 61
+  },
+  {
+    "country": "Hungary",
+    "zone": 61
+  },
+  {
+    "country": "Iceland",
+    "zone": 7
+  },
+  {
+    "country": "Italy",
+    "zone": 5
+  },
+  {
+    "country": "Letland",
+    "zone": 61
+  },
+  {
+    "country": "Lithua",
+    "zone": 61
+  },
+  {
+    "country": "Luxembourg",
+    "zone": 2
+  },
+  {
+    "country": "Netherlands",
+    "zone": 1
+  },
+  {
+    "country": "Norway",
+    "zone": 7
+  },
+  {
+    "country": "Austria",
+    "zone": 6
+  },
+  {
+    "country": "Poland",
+    "zone": 51
+  },
+  {
+    "country": "Portugal",
+    "zone": 6
+  },
+  {
+    "country": "Slovenia",
+    "zone": 61
+  },
+  {
+    "country": "Slowakia",
+    "zone": 61
+  },
+   {
+    "country": "Spain",
+    "zone": 6
+  },
+  {
+    "country": "Czech Republic",
+    "zone": 51
+  },
+  {
+    "country": "Sweden",
+    "zone": 6
+  },
+  {
+    "country": "Switzerland",
+    "zone": 7
+  }
+]
