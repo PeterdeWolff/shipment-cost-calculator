@@ -16,13 +16,44 @@ $.getJSON(url, function (data) {
 
 $( document ).ready(function() {
 
+    
 });
 
-var lenght();
-var width ();
-var height();
+function calculate(){
+    
+   var lenght = parseInt($("#lenght").val());
+    var width = parseInt($("#width").val());
+    var height = parseInt($("#height").val());
+    var weight = Math.ceil(parseInt($("#weight").val()));
+    var country = $("#countries-dropdown").val();
+    var urlString = 'assets/static/data/csvjson.json';
+    var volume_weight = Math.ceil((lenght * width * height) /5000);
+    
+    var json = $.getJSON(urlString, function (data){
+        
+    });
 
-function volume_weight (lenght,width,height) {return ((lenght*width*height)/5000)};
+    $.getJSON(urlString, function(data) {
+        console.log(data);
+        if (volume_weight > weight) {
+            
+        
+        } else {
+            
+        }
+    })
+    
+}
 
-var weight = ('lenght' * 'width' * 'height');
+
+
+
+
+//if (volume_weight > weight) {weight = volume weight};
+
+
+
+
+
+
 
