@@ -13,11 +13,11 @@ $.getJSON(url, function (data) {
         dropdown.append($('<option></option>').attr('value', entry.zone).text(entry.country));
     });
 });
+var costData = {};
 
-$( document ).ready(function() {
-
-    
-});
+$.getJSON("assets/static/data/csvjson.json", function (cost){
+    costData = cost;
+}, function(succes) {});
 
 function calculate(){
     
@@ -28,21 +28,15 @@ function calculate(){
     var country = $("#countries-dropdown").val();
     var urlString = 'assets/static/data/csvjson.json';
     var volume_weight = Math.ceil((lenght * width * height) /5000);
-    
-    var json = $.getJSON(urlString, function (data){
-        
-    });
 
-    $.getJSON(urlString, function(data) {
-        console.log(data);
+   
+        
         if (volume_weight > weight) {
-            
+          console.log(costData);  
         
         } else {
             
         }
-    })
-    
 }
 
 
